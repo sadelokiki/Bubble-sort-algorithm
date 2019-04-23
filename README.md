@@ -7,7 +7,9 @@ Bubble sort algorithm in Javascript.
   // the unsorted array
   let arr = [103, 45, 2, 1, 97, -4, 67];
 
+  let result = bubblesort(arr);
+  
   // should print array of [ -4, 1, 2, 45, 67, 97, 103 ]
-  bubblesort(arr);
+  console.log(result)
 ```
 
